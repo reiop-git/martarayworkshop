@@ -42,14 +42,34 @@
             </p>
             <a class="primary-button" href="#agenda">See Workshop Agenda</a>
           </div>
-          <aside class="hero-panel" aria-label="Workshop details">
-            <h2>Session Snapshot</h2>
-            <ul>
-              <li>Level: Beginner</li>
-              <li>Tooling: AWS Amplify</li>
-              <li>Format: Guided practice</li>
-              <li>Venue: VOCO Estonia</li>
-            </ul>
+          <aside class="hero-panel calc-panel" aria-label="Calculator">
+            <h2 class="calc-title">Calculator</h2>
+            <div class="calc-display" id="calc-display">0</div>
+            <div class="calc-grid">
+              <button class="calc-btn calc-clear" data-action="clear">C</button>
+              <button class="calc-btn calc-op" data-action="sign">+/-</button>
+              <button class="calc-btn calc-op" data-action="percent">%</button>
+              <button class="calc-btn calc-op calc-op-accent" data-action="op" data-value="/">÷</button>
+
+              <button class="calc-btn" data-action="digit" data-value="7">7</button>
+              <button class="calc-btn" data-action="digit" data-value="8">8</button>
+              <button class="calc-btn" data-action="digit" data-value="9">9</button>
+              <button class="calc-btn calc-op calc-op-accent" data-action="op" data-value="*">×</button>
+
+              <button class="calc-btn" data-action="digit" data-value="4">4</button>
+              <button class="calc-btn" data-action="digit" data-value="5">5</button>
+              <button class="calc-btn" data-action="digit" data-value="6">6</button>
+              <button class="calc-btn calc-op calc-op-accent" data-action="op" data-value="-">−</button>
+
+              <button class="calc-btn" data-action="digit" data-value="1">1</button>
+              <button class="calc-btn" data-action="digit" data-value="2">2</button>
+              <button class="calc-btn" data-action="digit" data-value="3">3</button>
+              <button class="calc-btn calc-op calc-op-accent" data-action="op" data-value="+">+</button>
+
+              <button class="calc-btn calc-zero" data-action="digit" data-value="0">0</button>
+              <button class="calc-btn" data-action="dot">.</button>
+              <button class="calc-btn calc-op calc-op-accent" data-action="equals">=</button>
+            </div>
           </aside>
         </div>
       </section>
